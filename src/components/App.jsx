@@ -7,18 +7,8 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import IconButton from '@mui/material/IconButton';
 
 import "../styles/App.css";
-import { display } from "@mui/system";
 
 function App() {
-
-
-  // const [selectedIndex, setSelectedIndex] = React.useState(1);
-
-  // const handleListItemClick = (event, index) => {
-  //   setSelectedIndex(index);
-  // };
-
-
 
   const [entry, updateEntry] = useState([]);
   let itemsList = entry;
