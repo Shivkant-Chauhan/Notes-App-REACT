@@ -1,5 +1,6 @@
 # Getting Started with Create React App
-
+after pulling the docker image.. run `docker run -d -p 3000:3000 -v $(pwd):/app <imageID/imageName>` so that the source code changes are parallely reflected in the running container
+ 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
